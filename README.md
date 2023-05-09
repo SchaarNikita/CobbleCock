@@ -1,3 +1,3 @@
-This Manus first README File
+This is the README for the Game CobbleCock, that's being programmed by Manuel Pirkmann and Nikita Schaar
 
-YAY pull worked
+Information: tbd
