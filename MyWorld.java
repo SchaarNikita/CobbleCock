@@ -87,6 +87,10 @@ public class MyWorld extends World
         CoinUpgrade moreCoins = new CoinUpgrade(ca);
 
         this.addObject(moreCoins, 246, 80);
+        
+        HasteUpgrade haste = new HasteUpgrade(ca);
+
+        this.addObject(haste, 246, 128);
 
         CoinUpgradeText cUT = new CoinUpgradeText();
 
