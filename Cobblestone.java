@@ -10,6 +10,7 @@ public class Cobblestone extends Actor
 {
     int delayFrames;
     int maxFrames;
+    
     Cobblestone() {
         this.delayFrames = 0;
         this.maxFrames = 60;
@@ -20,6 +21,9 @@ public class Cobblestone extends Actor
      */
     public void act()
     {
+        if(this.maxFrames <= 0) {
+            this.maxFrames = 1;
+        }
         if(this.delayFrames == maxFrames) {
             this.delayFrames = 0;
             this.getImage().setTransparency(255);

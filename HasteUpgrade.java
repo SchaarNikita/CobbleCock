@@ -13,10 +13,13 @@ public class HasteUpgrade extends Actor
     int coins;
     int cost;
     CoinAmount cA;
+    Cobblestone cobble;
+    int counter = 0;
     
-    public HasteUpgrade(CoinAmount cA) {
+    public HasteUpgrade(CoinAmount cA, Cobblestone cobble) {
         this.cA = cA;
         this.cost = 1000;
+        this.cobble = cobble;
     }
     /**
      * Act - do whatever the HasteUpgrade wants to do. This method is called whenever
@@ -29,12 +32,17 @@ public class HasteUpgrade extends Actor
         if(Greenfoot.isKeyDown("E")) {
             getImage().setTransparency(255);
         }
-        
-        if(Greenfoot.mouseClicked(this)) {
-            if(this.coins >= cost) {
-                this.cA.decCoins(this.cost);
-                this.cost *= 3;
+        if(counter != 30) {
+            if(Greenfoot.mouseClicked(this)) {
+                if(this.coins >= cost) {
+                    this.cA.decCoins(this.cost);
+                    this.cost *= 1.5;
+                    cobble.maxFrames -= 2;
+                    counter += 1;
+                
+                
             }
         }
+    }
     }
 }

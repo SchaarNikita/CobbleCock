@@ -33,7 +33,7 @@ public class CoinUpgrade extends Actor
             if(this.coins >= cost) {
                 this.cA.decCoins(this.cost);
                 this.cA.incCF();
-                this.cost *= 1.75;
+                this.cost *= 1.5;
             }
         }
         

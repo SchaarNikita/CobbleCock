@@ -88,7 +88,7 @@ public class MyWorld extends World
 
         this.addObject(moreCoins, 246, 80);
         
-        HasteUpgrade haste = new HasteUpgrade(ca);
+        HasteUpgrade haste = new HasteUpgrade(ca,cobble);
 
         this.addObject(haste, 246, 128);
 

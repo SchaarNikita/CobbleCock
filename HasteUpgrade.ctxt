@@ -1,8 +1,8 @@
 #BlueJ class context
 comment0.target=HasteUpgrade
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ HasteUpgrade\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=cA
-comment1.target=HasteUpgrade(CoinAmount)
+comment1.params=cA\ cobble
+comment1.target=HasteUpgrade(CoinAmount,\ Cobblestone)
 comment2.params=
 comment2.target=void\ act()
 comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ HasteUpgrade\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
