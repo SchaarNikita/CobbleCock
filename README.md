@@ -47,9 +47,9 @@ This are some updates we are focusing right now
 <a name="sources"></a>
 ## Links to the apps we use to programm, design and manage our game
 
-Asperite: 
-Greenfoot: https://www.greenfoot.org/door
-GitHub: 
+Asperite: https://www.aseprite.org/   
+Greenfoot: https://www.greenfoot.org/door  
+GitHub: https://github.com/  
 
 
 
