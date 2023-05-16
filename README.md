@@ -3,9 +3,9 @@
 - [Title/Basic game mechanics](#title)
 - [Information about the developer](#information)
 - [Progress](#progress)
-- [Sources](#sources)
 - [Updates](#futurePlans)
-
+- [Looks of the Game](#images)
+- [Sources](#sources)
 
 # CobbleCock 
 A documentation about the progress of the game Cobblecock made by Schaar, Pirkmann, Gierer. The Basic mechanics of the game is inspired by cookie clicker games the 
@@ -18,7 +18,7 @@ This Game was mainly programmed by Nikita Schaar and Manuel Pirkmann. The progra
 
 
 ### Design
-The pixel art was mostly designed and made by Janik Gierer the programm he uses to design all of the images is **Asperite** which is also linked at the sources tab [sources](#sources)
+The pixel art was mostly designed and made by Janik Gierer and the programm he uses to design all of the images is **Aseprite** which is also linked at the sources tab [sources](#sources)
 
 
 
@@ -40,16 +40,28 @@ The basic design and code of the game is already finished but we need to work on
 
 This are some updates we are focusing right now 
 
-***
 
+<a name="images"></a>
+## Here are some images of our Game at the moment <br>
+
+### This is the Start screen
+![Screenshot of the temporary start screen.](/images/GitHub_Doc/StartScreen.png)
+
+<br>
+
+### Here is a Screenshot of the Game when you are playing
+
+![Screenshot of the gameplay.](/images/GitHub_Doc/Gameplay.png)
+
+***
 
 
 <a name="sources"></a>
 ## Links to the apps we use to programm, design and manage our game
 
-Asperite: https://www.aseprite.org/ <br>  
-Greenfoot: https://www.greenfoot.org/door <br> 
-GitHub: https://github.com/  <br>
+Aseprite: https://www.aseprite.org/<br>
+Greenfoot: https://www.greenfoot.org/door<br> 
+GitHub: https://github.com/<br>
 
 
 
