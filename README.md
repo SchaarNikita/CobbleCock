@@ -1,4 +1,4 @@
 <a name="title"></a>
 ##### CobbleCock
 
-- [Titel] (#title)
+- [Titel](#title)
