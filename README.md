@@ -1,5 +1,4 @@
-This is the README for the Game CobbleCock, that's being programmed by Manuel Pirkmann and Nikita Schaar
+<a name="title"></a>
+##### CobbleCock
 
-Information: tbd
-
-Tested the .gitignore file with this commit
+- [Titel] (#title)
