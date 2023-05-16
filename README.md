@@ -5,6 +5,7 @@
 - [Progress](#progress)
 - [Updates](#futurePlans)
 - [Looks of the Game](#images)
+- [Division of Laber](#timeOfWork)
 - [Sources](#sources)
 
 # CobbleCock 
@@ -53,8 +54,20 @@ This are some updates we are focusing right now
 
 ![Screenshot of the gameplay.](/images/GitHub_Doc/Gameplay.png)
 
-***
+<br>
 
+<a name="timeOfWork"></a>
+
+## Division of Laber
+| Design| Coding| Version Managment |
+| ------------- |:-------------:|:-------------:|
+| Janik Gierer| Nikita Schaar| Nikita Schaar |
+| ------------| Manuel Pirkmann | Manuel Pirkmann |
+
+
+<br>
+***
+<br>
 
 <a name="sources"></a>
 ## Links to the apps we use to programm, design and manage our game
