@@ -6,6 +6,7 @@
 - [Titel](#title)
 - [Information](#mainpart)
 	- [Resources Used](#resources)
+	- [Images](#images)
 
 
 <a name="mainpart"></a>
@@ -24,3 +25,7 @@ game sprites is called Aseprite. The links to all these tools are below this tex
 - [Greenfoot](https://greenfoot.org/door)
 - [GitHub](https://github.com/)
 - [Aseprite](https://aseprite.com)
+
+<a name="images"></a>
+### Images
+![Screenshot of the temporary start screen.](/images/GitHub_Doc/StartScreen.png)
