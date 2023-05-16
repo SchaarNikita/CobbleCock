@@ -29,3 +29,12 @@ game sprites is called Aseprite. The links to all these tools are below this tex
 <a name="images"></a>
 ### Images
 ![Screenshot of the temporary start screen.](/images/GitHub_Doc/StartScreen.png)
+This is our temporary Start Screen, which we are going to change soon and just used for testing purposes.
+
+![Screenshot of the gameplay.](/images/GitHub_Doc/Gameplay.png)
+This is the newest version of our gameplay as of today. It still looks quite unpolished and we'll have
+to rework a lot of files, but the gameplay at least works and doesn't have any major bugs (right now :'])
+
+![Screenshot of the item shop with one available item to buy.](/images/GitHub_Doc/Gameplay_Shop.png)
+This is how our item shop looks as of today. It has one buyable item for now, but as you can see, we're
+working on five other upgrades already (maybe we'll make even more).
