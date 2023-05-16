@@ -165,9 +165,14 @@ working on five other upgrades already (maybe we'll make even more).
 | Janik Gierer 90% | Nikita Schaar 55%|
 | Manuel Pirkmann 10%| Manuel Pirkmann 45%|
 
+---
 
 > That was our documentation about our game "CobbleCock". It's contents are gonna get updated frequently and we'll try our best to keep all major updates in it.
 
+---
+
 If you're interested in the other things that we make, you can look at our profiles in the footnote[^1].
+
+---
 
 [^1]: [Nikita](https://github.com/SchaarNikita), [Manuel](https://github.com/211wita16)
