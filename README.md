@@ -1,3 +1,4 @@
-This is the README for the Game CobbleCock, that's being programmed by Manuel Pirkmann and Nikita Schaar
+<a name="title"></a>
 
-Information: tbd
+# CobbleCock 
+A dokumentation from the game Cobblecock made by Schaar, Pirkmann, Gierer

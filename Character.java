@@ -22,6 +22,7 @@ public class Character extends Actor
     public void act()
     {
         
+        
         if(Greenfoot.isKeyDown("RIGHT") || Greenfoot.isKeyDown("D")) {
             move(3);
         }
