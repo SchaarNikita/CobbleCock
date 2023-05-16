@@ -9,7 +9,7 @@
 - [Sources](#sources)
 
 # CobbleCock 
-A documentation about the progress of the game Cobblecock made by Schaar, Pirkmann, Gierer. The Basic mechanics of the game is inspired by cookie clicker games the 
+A documentation about the progress of the game Cobblecock made by Schaar, Pirkmann, Gierer. The Basic mechanics of the game is inspired by cookie clicker games you need to break a cobblestone to make money and buy upgrades until you have enough to buy the "Cobble Cock" to finish the game 
 
 
 <a name="information"></a>
@@ -26,7 +26,7 @@ The pixel art was mostly designed and made by Janik Gierer and the programm he u
 
 <a name="progress"></a>
 ## Progress of the game right now
-The basic design and code of the game is already finished but we need to work on the design of some images because they do not look good enough. Things that are working of the game are the basic mechanics of the game. [Basic game mechanics](#title#)
+The basic design and code of the game is already finished but we need to work on the design of some images because they do not look good enough. Things that are working of the game are the basic mechanics of the game. [Basic game mechanics](#title)
 
  
 
