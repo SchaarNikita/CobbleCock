@@ -9,6 +9,7 @@
 	- [Images](#images)
 	- [Future plans](#future)
 	- [Division of Labor](#worksplit)
+- [End + Footnote](#finishtext)
 
 <a name="mainpart"></a>
 ## Information
@@ -171,6 +172,7 @@ working on five other upgrades already (maybe we'll make even more).
 
 ---
 
+<a name="finishtext"></a>
 If you're interested in the other things that we make, you can look at our profiles in the footnote[^1].
 
 ---
