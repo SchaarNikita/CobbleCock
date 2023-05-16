@@ -9,7 +9,7 @@
 
 # CobbleCock 
 A documentation about the progress of the game Cobblecock made by Schaar, Pirkmann, Gierer
---hit
+-- hit 
 
 
 <a name="information"></a>
@@ -17,7 +17,8 @@ A documentation about the progress of the game Cobblecock made by Schaar, Pirkma
 ## Developer information
 ### Programming
 This Game was mainly programmed by Nikita Schaar and Manuel Pirkmann. The programming libary we use is **Greenfoot** the informations about this libary are linked in the [sources](#sources) tab 
--- hit
+
+-- hit 
 
 ### Design
 The pixe art was mostly designed and made by Janik Gierer the 
