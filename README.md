@@ -4,7 +4,7 @@
 - [Information about the developer](#information)
 - [Progress](#progress)
 - [Sources](#sources)
-- [Updates](#future plans)
+- [Updates](#futurePlans)
 
 
 # CobbleCock 
@@ -29,7 +29,7 @@ The basic design and code of the game is already finished but we need to work on
 
  
 
-<a name="future plans"></a>
+<a name="futurePlans"></a>
 ## Updates of the game that will release in the future
 - Implement a new World which is a dungeon 
 - Fix graphic issues(example: our Cloud in the background)
@@ -45,7 +45,11 @@ This are some updates we are focusing right now
 
 
 <a name="sources"></a>
+## Links to the apps we use to programm, design and manage our game
 
+Asperite: 
+Greenfoot: https://www.greenfoot.org/door
+GitHub: 
 
 
 
