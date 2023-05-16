@@ -7,7 +7,8 @@
 - [Information](#mainpart)
 	- [Resources Used](#resources)
 	- [Images](#images)
-
+	- [Future plans](#future)
+	- [Division of Labor](#worksplit)
 
 <a name="mainpart"></a>
 ## Information
@@ -152,4 +153,14 @@ working on five other upgrades already (maybe we'll make even more).
 	    }
 	}
 	```
+	- Comment our code more
+	- Implement a combat/dungeon system
+	- Make the game window completely resizable
 
+
+<a name="worksplit"></a>
+### Division of Labor
+| Design| Programming|
+| ------------- |:-------------:|
+| Janik Gierer 100% | Nikita Schaar 100%|
+| Manuel Pirkmann 10%| Manuel Pirkmann 90%|
