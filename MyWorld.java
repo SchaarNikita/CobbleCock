@@ -95,6 +95,11 @@ public class MyWorld extends World
         CoinUpgradeText cUT = new CoinUpgradeText();
 
         this.addObject(cUT, 332, 80);
+        
+        HasteUpgradeText hUT = new HasteUpgradeText();
+
+        this.addObject(hUT, 332, 128);
+        
         prepare();
     }
     /**
