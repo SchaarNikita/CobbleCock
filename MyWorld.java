@@ -38,14 +38,6 @@ public class MyWorld extends World
 
         this.addObject(cobble, 490, 231);
 
-        CoinCount cc = new CoinCount();
-
-        this.addObject(cc, 380, 40);
-
-        CoinAmount ca = new CoinAmount();
-
-        this.addObject(ca, 415, 40);
-
         CobbleCount cobC = new CobbleCount();
 
         this.addObject(cobC, 525, 40);
@@ -55,6 +47,18 @@ public class MyWorld extends World
         this.addObject(cobA, 560, 40);
 
         Character steve = new Character(cobA);
+        
+        Cave cave = new Cave(steve);
+        
+        this.addObject(cave, 300, 155);
+        
+        CoinCount cc = new CoinCount();
+
+        this.addObject(cc, 380, 40);
+
+        CoinAmount ca = new CoinAmount();
+
+        this.addObject(ca, 415, 40);
 
         this.addObject(steve, 100, 230);
 
@@ -91,6 +95,10 @@ public class MyWorld extends World
         CoinUpgradeText cUT = new CoinUpgradeText();
 
         this.addObject(cUT, 332, 80);
+        
+        Mob mob = new Mob(steve);
+        
+        this.addObject(mob, 500, 300);
         prepare();
     }
     /**

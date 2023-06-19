@@ -12,7 +12,7 @@ public class CoinAmount extends Actor
     int coins;
     double cF;
     public CoinAmount() {
-        this.coins = 999999;
+        this.coins = 9999;
         this.cF = 1;
     }
     /**
@@ -50,14 +50,19 @@ public class CoinAmount extends Actor
     private String formatCoins() {
         if (this.coins >= 1000000000) {
             double billions = this.coins / 1000000000.0;
-            return billions + "B";
+            billions = Math.floor(billions * 100);
+            billions /= 100;
+            return String.format("%.2fB", billions);
         } else if (this.coins >= 1000000) {
             double millions = this.coins / 1000000.0;
-            return millions + "M";
-            //return String.format("%2f.");
+            millions = Math.floor(millions * 100);
+            millions /= 100;
+            return String.format("%.2fM", millions);
         } else if (this.coins >= 1000) {
             double thousands = this.coins / 1000.0;
-            return thousands + "k";
+            thousands = Math.floor(thousands * 100);
+            thousands /= 100;
+            return String.format("%.2fk", thousands);
         } else {
             return "" + this.coins;
         }
