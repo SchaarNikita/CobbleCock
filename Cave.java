@@ -20,7 +20,7 @@ public class Cave extends Actor
     public void act()
     {
         if(this.isTouching(c.getClass())) {
-            if(Greenfoot.isKeyDown("UP")) {
+            if(Greenfoot.isKeyDown("UP") || Greenfoot.isKeyDown("W")) {
                 Greenfoot.setWorld(new CaveWorld());
             }
         }

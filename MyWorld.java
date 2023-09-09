@@ -66,11 +66,6 @@ public class MyWorld extends World
 
         this.addObject(sp, 40, 255);
 
-        // Adds a Nametag which follows the player
-        Nametag nt = new Nametag(steve);
-
-        this.addObject(nt, 100, 177);
-
         PickaxeStone sP = new PickaxeStone(steve);
 
         this.addObject(sP, 40, 215);
@@ -98,7 +93,18 @@ public class MyWorld extends World
         
         Mob mob = new Mob(steve);
         
-        this.addObject(mob, 500, 300);
+        this.addObject(mob, 500, 230);
+        
+        Head head = new Head(mob);
+        
+        this.addObject(head, 500, 230);
+        
+        Torso torso = new Torso(mob);
+        
+        this.addObject(torso, 500, 230);
+        
+        Legs legs = new Legs(mob);
+        this.addObject(legs, 500, 230);
         prepare();
     }
     /**

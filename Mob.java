@@ -19,7 +19,7 @@ public class Mob extends Actor
      */
     public void act()
     {
-        this.turnTowards(c.getX(), c.getY());
+        this.turnTowards(c.getX(), this.getY());
         this.move(1);
         this.setRotation(0);
     }
