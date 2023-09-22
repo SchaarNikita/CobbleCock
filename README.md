@@ -8,15 +8,13 @@
 	- [Resources Used](#resources)
 	- [Images](#images)
 	- [Future plans](#future)
-	- [Division of Labor](#worksplit)
 - [End + Footnote](#finishtext)
 
 <a name="mainpart"></a>
 ## Information
 
 This is the README.md file to our game "CobbleCock". It is a project that I, Nikita Schaar, and my friends 
-Manuel Pirkmann and Janik Gierer are working on. We are working on it for our school's **POS** class and
-don't completely know what we're doing, but we're trying our best.
+Manuel Pirkmann, Janik Gierer, Nikola Maksic, Alexander Schüller and Sebastian Katholnigg are working on. We are working on it for our school's **SEM** class.
 
 <a name="resources"></a>
 ### Resources used
@@ -39,19 +37,23 @@ This is our temporary Start Screen, which we are going to change soon and just u
 This is the newest version of our gameplay as of today. It still looks quite unpolished and we'll have
 to rework a lot of files, but the gameplay at least works and doesn't have any major bugs ~~(right now)~~
 
-![Screenshot of the item shop with one available item to buy.](https://i.postimg.cc/J4qZrM1M/Gameplay-Shop.png)
+![Screenshot of the item shop with one available item to buy.](https://postimg.cc/TpGkhQcx)
+This is our current state of the shop where we have 2 buyable upgrades. Manuel Pirkmann is currently working on more upgrades. 
 
-This is how our item shop looks as of today. It has one buyable item for now, but as you can see, we're
-working on five other upgrades already (maybe we'll make even more).
-
+## Shop upgrade ideas
+- Coin upg
+- Haste upg
+- Pickaxe upg (more cobblestone)
+-
+-
+- Dungeon Upgrade
 
 <a name="future"></a>
 ### Plans for the future
 - Reduce data redundancy/Make files more compact/readable
 	- Our "MyWorld.java" file looks like that right now and is just very barely readable (also only for us who are working on the project).
 	```java
-	import greenfoot.*; // (World, Actor, GreenfootImage, Greenfoot and MouseInfo) 
-	
+	import greenfoot.*; // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 	
 	/**
 	 * Write a description of class MyWorld here.
@@ -156,15 +158,12 @@ working on five other upgrades already (maybe we'll make even more).
 	```
 	- Comment our code more
 	- Implement a combat/dungeon system
-	- Make the game window completely resizable
+	- Make the game window completely resizable (low priority)
+   	- Animations for character
+   	- 
 
 
-<a name="worksplit"></a>
-### Division of Labor
-| Design| Programming|
-| ------------- |:-------------:|
-| Janik Gierer 90% | Nikita Schaar 55%|
-| Manuel Pirkmann 10%| Manuel Pirkmann 45%|
+
 
 ---
 
