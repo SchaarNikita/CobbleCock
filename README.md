@@ -42,16 +42,14 @@ to rework a lot of files, but the gameplay at least works and doesn't have any m
 This is our current state of the shop where we have 2 buyable upgrades. Manuel Pirkmann is currently working on more upgrades. 
 
 ## Shop upgrade ideas
-- Coin upg
-- Haste upg
-- Pickaxe upg (more cobblestone)
--
--
-- Dungeon Upgrade
+- Coin upg (Finished)
+- Haste upg (Finished)
+- Pickaxe upg (more cobblestone) (Easy to implement)
+- Dungeon Upgrade (Hard to implement)
 
 <a name="future"></a>
 ### Plans for the future
-- Reduce data redundancy/Make files more compact/readable
+- Reduce data redundancy/Make files more compact/readable (Annoying to implement)
 	- Our "MyWorld.java" file looks like that right now and is just very barely readable (also only for us who are working on the project).
 	```java
 	import greenfoot.*; // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
@@ -157,11 +155,10 @@ This is our current state of the shop where we have 2 buyable upgrades. Manuel P
 	    }
 	}
 	```
-	- Comment our code more
-	- Implement a combat/dungeon system
-	- Make the game window completely resizable (low priority)
-   	- Animations for character
-   	- 
+	- Comment our code more (Medium difficult to implement)
+	- Implement a combat/dungeon system (Hard to implement)
+	- Make the game window completely resizable (low priority) (Hard to implement)
+   	- Animations for character (Medium difficult to implement)
 
 
 
