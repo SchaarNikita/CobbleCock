@@ -37,7 +37,8 @@ This is our temporary Start Screen, which we are going to change soon and just u
 This is the newest version of our gameplay as of today. It still looks quite unpolished and we'll have
 to rework a lot of files, but the gameplay at least works and doesn't have any major bugs ~~(right now)~~
 
-![Screenshot of the item shop with one available item to buy.](https://postimg.cc/TpGkhQcx)
+[![Screenshot-2023-09-22-130622.png](https://i.postimg.cc/8PfxK0J7/Screenshot-2023-09-22-130622.png)](https://postimg.cc/TpGkhQcx)
+
 This is our current state of the shop where we have 2 buyable upgrades. Manuel Pirkmann is currently working on more upgrades. 
 
 ## Shop upgrade ideas
