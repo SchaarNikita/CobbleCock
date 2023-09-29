@@ -11,7 +11,9 @@ public class Character extends Actor
 {
     CobbleAmount cobA;
     WaitCount waitC;
+    int simulationSpeed = 0;
     Character (CobbleAmount cobA) {
+        
         this.cobA = cobA;
         this.waitC = new WaitCount();
     }
@@ -21,7 +23,10 @@ public class Character extends Actor
      */
     public void act()
     {
-        
+        simulationSpeed = greenfoot.core.Simulation.getInstance().getSpeed();
+        if(simulationSpeed > 50 || simulationSpeed < 50) {
+            greenfoot.core.Simulation.getInstance().setSpeed(50);
+        }
         
         if(Greenfoot.isKeyDown("RIGHT") || Greenfoot.isKeyDown("D")) {
             move(3);
@@ -30,7 +35,6 @@ public class Character extends Actor
         if(Greenfoot.isKeyDown("LEFT") || Greenfoot.isKeyDown("A")) {
             move(-3);
         }
-        
         
         Actor a = getOneIntersectingObject(Cobblestone.class);
         Cobblestone b = (Cobblestone) a;
@@ -50,4 +54,7 @@ public class Character extends Actor
     public int getYPos() {
         return this.getY();
     }
+    
+    
+    
 }
