@@ -29,6 +29,10 @@ public class MyWorld extends World
         //Cloud1 c1 = new Cloud1();
 
         //this.addObject(c1, 300, 200);
+        
+        Floor floor = new Floor();
+        
+        this.addObject(floor, 300, 340);
 
         LavaGen lg = new LavaGen();
 
@@ -91,7 +95,7 @@ public class MyWorld extends World
 
         this.addObject(cUT, 332, 80);
         
-        Mob mob = new Mob(steve);
+        /* Mob mob = new Mob(steve);
         
         this.addObject(mob, 500, 230);
         
@@ -104,7 +108,8 @@ public class MyWorld extends World
         this.addObject(torso, 500, 230);
         
         Legs legs = new Legs(mob);
-        this.addObject(legs, 500, 230);
+        this.addObject(legs, 500, 230); */
+        
         prepare();
     }
     /**

@@ -11,9 +11,11 @@ public class Character extends Actor
 {
     CobbleAmount cobA;
     WaitCount waitC;
+    int jumpCount;
     Character (CobbleAmount cobA) {
         this.cobA = cobA;
         this.waitC = new WaitCount();
+        this.jumpCount = 0;
     }
     /**
      * Act - do whatever the Character wants to do. This method is called whenever
@@ -29,6 +31,22 @@ public class Character extends Actor
         if(Greenfoot.isKeyDown("LEFT") || Greenfoot.isKeyDown("A")) {
             move(-3);
         }
+        
+        if(!this.isTouching(Floor.class)) {
+            this.setLocation(this.getX(), this.getY()+4);
+        }
+        
+        if(Greenfoot.isKeyDown("SPACE")) {
+            if(this.jumpCount < 8) {
+                this.setLocation(this.getX(), this.getY()-13);
+                this.jumpCount++;
+            }
+        }
+        
+        if(this.isTouching(Floor.class)) {
+            this.jumpCount = 0;
+        }
+        
         
         
         Actor a = getOneIntersectingObject(Cobblestone.class);
