@@ -38,6 +38,13 @@ The basic design and code of the game is already finished but we need to work on
 - Reduce the data redundancy
 - Animate our main character
 - Implement a stock market
+  ### Shop Upgrades
+  - Coin Upgrade
+  - Haste Upgrades
+  -
+  -
+  - 
+  - Dungeon 
 
 This are some updates we are focusing right now 
 
