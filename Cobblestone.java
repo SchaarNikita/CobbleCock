@@ -34,6 +34,7 @@ public class Cobblestone extends Actor
         }
     }
     
+    
     public void breakCob() {
         this.getImage().setTransparency(0);
     }

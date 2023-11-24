@@ -12,7 +12,7 @@ public class CoinAmount extends Actor
     int coins;
     double cF;
     public CoinAmount() {
-        this.coins = 0;
+        this.coins = 1000000000;
         this.cF = 1;
     }
     /**

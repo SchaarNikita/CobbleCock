@@ -50,26 +50,12 @@ public class MyWorld extends World
 
         this.addObject(cobC, 525, 40);
 
-        CobbleAmount cobA = new CobbleAmount();
-
-        this.addObject(cobA, 560, 40);
-
-        Character steve = new Character(cobA);
-
-        this.addObject(steve, 100, 230);
-
-        SellPoint sp = new SellPoint(cobA, ca);
-
-        this.addObject(sp, 40, 255);
+        
 
         // Adds a Nametag which follows the player
-        Nametag nt = new Nametag(steve);
+        
 
-        this.addObject(nt, 100, 177);
-
-        PickaxeStone sP = new PickaxeStone(steve);
-
-        this.addObject(sP, 40, 215);
+        
 
         // Adds a Shop which can be opened by pressing E
         Shop shop = new Shop();
@@ -91,6 +77,30 @@ public class MyWorld extends World
         HasteUpgrade haste = new HasteUpgrade(ca,cobble);
 
         this.addObject(haste, 246, 128);
+        
+        CobbleAmount cobA = new CobbleAmount();
+
+        this.addObject(cobA, 560, 40);
+
+        SellPoint sp = new SellPoint(cobA, ca);
+
+        this.addObject(sp, 40, 255);
+        
+        PickaxeUpgrade moreCobble = new PickaxeUpgrade(ca, cobA);
+
+        this.addObject(moreCobble, 246, 177);
+        
+        Character steve = new Character(cobA, moreCobble);
+
+        this.addObject(steve, 100, 230);
+        
+        Nametag nt = new Nametag(steve);
+
+        this.addObject(nt, 100, 177);
+        
+        PickaxeStone sP = new PickaxeStone(steve, moreCobble);
+
+        this.addObject(sP, 40, 215);
 
         CoinUpgradeText cUT = new CoinUpgradeText();
 

@@ -9,8 +9,10 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class PickaxeStone extends Actor
 { 
     Character c;
-    public PickaxeStone(Character c) {
+    PickaxeUpgrade a;
+    public PickaxeStone(Character c, PickaxeUpgrade a) {
         this.c = c;
+        this.a = a;
     }
     /**
      * Act - do whatever the PickaxeStone wants to do. This method is called whenever
@@ -18,6 +20,7 @@ public class PickaxeStone extends Actor
      */
     public void act()
     {this.setLocation(c.getX() +30, c.getY());
+        
         
         // Add your action code here.
     }

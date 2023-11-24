@@ -12,10 +12,12 @@ public class Character extends Actor
     CobbleAmount cobA;
     WaitCount waitC;
     int simulationSpeed = 0;
-    Character (CobbleAmount cobA) {
+    PickaxeUpgrade a;
+    Character (CobbleAmount cobA, PickaxeUpgrade a) {
         
         this.cobA = cobA;
         this.waitC = new WaitCount();
+        this.a = a;
     }
     /**
      * Act - do whatever the Character wants to do. This method is called whenever
@@ -43,6 +45,9 @@ public class Character extends Actor
             cobA.incCobble();
             
             b.breakCob();
+        }
+        if(a.getPickAxeCounter() == 0) {
+            this.setImage("Eisenspitzhacke_nHuan.png");
         }
             
         }
