@@ -33,7 +33,7 @@ public class Character extends Actor
         }
         
         if(!this.isTouching(Floor.class)) {
-            this.setLocation(this.getX(), this.getY()+4);
+            this.setLocation(this.getX(), this.getY()+5);
         }
         
         if(Greenfoot.isKeyDown("SPACE")) {

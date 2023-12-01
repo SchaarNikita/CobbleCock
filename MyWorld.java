@@ -32,7 +32,7 @@ public class MyWorld extends World
         
         Floor floor = new Floor();
         
-        this.addObject(floor, 300, 340);
+        this.addObject(floor, 300, 270);
 
         LavaGen lg = new LavaGen();
 
