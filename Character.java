@@ -47,7 +47,9 @@ public class Character extends Actor
             this.jumpCount = 0;
         }
         
-        
+        if(this.getWorld().getClass() == CaveWorld.class && Greenfoot.isKeyDown("ESCAPE")) {
+            Greenfoot.setWorld(new MyWorld());
+        }
         
         Actor a = getOneIntersectingObject(Cobblestone.class);
         Cobblestone b = (Cobblestone) a;
